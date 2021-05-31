@@ -56,7 +56,7 @@ class CheckOut(View):
             message.Display()
             message.subject = 'Hello'
             message.SendUsingAccount = 'ahsan_732000@yahoo.com'
-            # email where you want to rrecive order
+            # email where you want to recive order
             message.To = 'fazalsaadnuman@gmail.com'
             message.Body = 'pedido de cliente '
             message.Attachments.Add(cart1)
@@ -79,7 +79,7 @@ class CheckOut(View):
             message.Display()
             message.subject = 'Hello'
             message.SendUsingAccount = 'ahsan_732000@yahoo.com'
-            # email where you want to rrecive order
+            # email where you want to recive order
             message.To = 'fazalsaadnuman@gmail.com'
             message.Body = 'pedido del cliente '
 
