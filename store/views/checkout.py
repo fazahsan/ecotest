@@ -78,9 +78,9 @@ class CheckOut(View):
             message = outlook.CreateItem(0)
             message.Display()
             message.subject = 'Hello'
-            message.SendUsingAccount = 'ahsan_732000@yahoo.com'
+            message.SendUsingAccount = 
             # email where you want to recive order
-            message.To = 'fazalsaadnuman@gmail.com'
+            message.To = 
             message.Body = 'pedido del cliente '
 
             message.Attachments.Add(cart1)
